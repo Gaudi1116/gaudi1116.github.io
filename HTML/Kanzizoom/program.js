@@ -2,8 +2,9 @@ function oshita() {
     youso=document.getElementById('text01');
     t=youso.value;
 
-    hyouji='こんにちは'+t+'さん';
+    hyouji='<h1>t</h1>';
 
     gamenyouso = document.getElementById('gamen');
     gamenyouso.innerHTML = hyouji;
+
 }
